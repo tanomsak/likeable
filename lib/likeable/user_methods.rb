@@ -34,8 +34,7 @@ module Likeable::UserMethods
     klass.all_liked_by(self)
   end
 
-  # @user.liked(Spot)
-  #   will return all spots that user has liked
+  #   will return all id of obj that user has liked
   def all_liked_ids(klass)
     klass.all_liked_ids_by(self)
   end
